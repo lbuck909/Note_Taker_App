@@ -7,12 +7,12 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 
 // Middleware and static 
-app.use(express.urlencoded({ extended: false }));
+app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
-app.use(api_routes)
-app.use(html_routes)
+app.use("/api", api_routes)
+app.use("/", html_routes)
 
 app.listen(PORT, () => {
-  console.log(`http://localhost:3001:${POST}`)
+  console.log(`Listening on http://localhost:3001:${POST}`)
 })
