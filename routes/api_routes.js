@@ -21,20 +21,20 @@ class Store {
     if ( !title || !text) {
       throw new Error('title and text cannot be empty')
     }
-
+    //uuid package needed here
     const userNote = { title, text, id: uuidv4() }
-
+    // write new notes, return new note and show current note updates
     return this.newNote()
     .then(notes => [...notes, newNote])
     .then(currentNotes => this.write(currentNotes))
-    .then(() => this newNote)
+    .then(() => this newNote);
 
   }
-  newNote() {
+  getNote() {
     return this.read()
     .then(notes => {
-
+        return JSON.parse(notes) || [];
     })
   }
 }
-
+module.exports = new Store();
