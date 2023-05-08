@@ -9,7 +9,7 @@ I was tasked to create an application that uses Express.js to retrieve data from
 ## Usage Instructions
 * Upon opening the landing page, users can select GET STARTED.
 * Existing notes will appear on the left hand side of the screen. 
-* The right side will provide teh user with an oppurtunity to create a new note title and write details underneath 
+* The right side will provide the user with an oppurtunity to create a new note title and write details underneath 
 * Once the user is satisfied with their note of choice a SAVE icon can be selected at the top right side of the app. Notes must be saved to move to the shown task list in the left hand column.
 
 ## Screenshot
