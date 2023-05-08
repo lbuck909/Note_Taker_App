@@ -13,7 +13,7 @@ I was tasked to create an application that uses Express.js to retrieve data from
 * Once the user is satisfied with their note of choice a SAVE icon can be selected at the top right side of the app. Notes must be saved to move to the shown task list in the left hand column.
 
 ## Screenshot
-image.png
+![screenshot](public/assets/screenshot.jpg)
 
 ## Technology Used
 * Visual Studio Code
