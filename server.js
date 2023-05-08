@@ -10,8 +10,8 @@ const app = express();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
-// app.use("/api", api_routes);
-// app.use("/", html_routes);
+ app.use("/api", api_routes);
+app.use("/", html_routes);
 
 app.listen(PORT, () => {
   console.log(`Listening on http://localhost:${PORT}`);
