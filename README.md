@@ -15,6 +15,9 @@ I was tasked to create an application that uses Express.js to retrieve data from
 ## Screenshot
 ![screenshot](public/assets/screenshot.jpg)
 
+## Deployed Link
+[External link](https://floating-bayou-47885.herokuapp.com/)
+
 ## Technology Used
 * Visual Studio Code
 * Heroku
